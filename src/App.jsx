@@ -3,7 +3,7 @@ import axios from "axios";
 
 function App() {
   async function fetchData() {
-    const response = axios.get();
+    const response = await axios.get();
   }
   return <></>;
 }
