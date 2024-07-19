@@ -17,7 +17,7 @@ function App() {
     fetchData();
   }, []);
 
-  console.log();
+  console.log(countries);
   return <></>;
 }
 
