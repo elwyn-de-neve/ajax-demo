@@ -5,7 +5,9 @@ function App() {
   async function fetchData() {
     try {
       const response = await axios.get("https://restcountries.com/v3.1/all");
-    } catch (err) {}
+    } catch (err) {
+      console.error(err);
+    }
   }
   return <></>;
 }
