@@ -1,7 +1,9 @@
 import "./App.css";
 
 function App() {
-  function fetchData() {}
+  function fetchData() {
+    const response = axios.get();
+  }
   return <></>;
 }
 
